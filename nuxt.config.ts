@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     "@nuxtjs/device",
     "@nuxtjs/google-fonts",
   ],
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+  },
   googleFonts: {
     families: {
       Roboto: true,
