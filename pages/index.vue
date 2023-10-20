@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 useSeoMeta({
-  title: "Ibrahim Zaman's Webpage",
+  title: "Ibrahim Zaman",
   ogTitle: "IB's webpage",
   description: "Amazing site.",
 });
