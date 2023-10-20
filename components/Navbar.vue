@@ -1,7 +1,6 @@
 <template>
   <div>
     <ul
-      v-if="device.isDesktop"
       class="flex flex-row gap-10 justify-around items-center p-4 hover:drop-shadow-sm"
     >
       <li
