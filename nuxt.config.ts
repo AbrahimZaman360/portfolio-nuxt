@@ -7,9 +7,21 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxtjs/device",
     "@nuxtjs/google-fonts",
+    "nuxt-icon",
   ],
   app: {
-    pageTransition: { name: "page", mode: "out-in" },
+    pageTransition: { name: "page", mode: "in-out" },
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      title: "Ibrahim Zaman",
+      meta: [
+        {
+          name: "description",
+          content: "An amazing website.",
+        },
+      ],
+    },
   },
   googleFonts: {
     families: {
